@@ -1,0 +1,101 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ececec; /* Light gray background */
+    margin: 0;
+    padding: 150px; /* Increased padding for spacing */
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    gap: 20px; /* Adds space between the left and right sections */
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #2d3e50; /* Dark blue-gray for left section */
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #ff9f1c; /* Bright orange accent */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px solid #ff9f1c; /* Matching orange border for profile picture */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ff9f1c; /* Shadow with orange */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10px;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 60%; /* Reduced width for better spacing */
+    box-sizing: border-box; /* Prevents padding issues */
+}
+
+.right-section h1 {
+    font-size: 24px;
+    color: #2c3e50; /* Dark gray for main section headings */
+    text-align: left; /* Aligns heading to the left */
+    margin-bottom: 20px;
+}
+
+.right-section p {
+    font-size: 16px;
+    line-height: 1.6; /* Improves text readability */
+    margin-bottom: 15px;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    background-color: #ff9f1c; /* Orange background for the button */
+    color: white;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff737c; /* Light red hover effect */
+}
